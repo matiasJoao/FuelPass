@@ -1,8 +1,13 @@
 import react from 'react'
+import { Link } from 'react-router-dom'
 import '../CSS/Home.css'
 import IconFuel from '../imagens/combustivel4.png'
 import Vector from '../imagens/Vector.png'
-export default function Home() {
+
+
+
+
+export  function Home() {
 
     return (
 
@@ -16,12 +21,12 @@ export default function Home() {
                     <h1> Combustível sem <br></br>
                         sair de casa </h1>
                     <div className="links">
-                        <a> <p  className="link link1">Bem Vindo De Volta! </p> </a>
-                        <a> <p  className="link link2">Novo Aqui? </p> </a>
+                        <Link to="/login"><p  className="link link1">Bem Vindo De Volta! </p></Link>
+                        <Link><p  className="link link2">Novo Aqui? </p></Link>
                     </div>
                 </div>
             </body>
         </div>
-
     )
+
 }
