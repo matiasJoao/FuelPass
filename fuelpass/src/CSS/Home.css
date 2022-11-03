@@ -1,0 +1,52 @@
+.principal {
+    width: 100%;
+    height: 100%;
+    background-color: #0090A4;
+
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    border-radius: 70px 70px 0px 0px;
+    text-align: center;
+}
+.body h1 {
+    color: #0090A4;
+    font-size: 4rem;
+}
+.imgBody{
+    padding: 2%;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+.lnks{
+    margin: 0;
+}
+.link{
+
+    border: 2px solid  #0090A4;
+    border-radius: 10px;
+    padding: 4%;
+    width: 300px;    
+
+}
+.link1{
+    color: #0090A4;
+    font-weight: bold;
+}
+.link2{
+    background-color: #0090A4;
+    color: white;
+    font-weight: bold;
+}
