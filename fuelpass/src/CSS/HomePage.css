@@ -1,0 +1,15 @@
+.body div {
+   margin-top: 1%;
+    padding:2%;
+}
+
+.litros {
+    border: 2px solid  #0090A4;
+    border-radius: 10px;
+    color: #0090A4 ;
+}
+.Real {
+    border: 2px solid  #0090A4;
+    border-radius: 10px;
+    color: #0090A4 ;
+}
