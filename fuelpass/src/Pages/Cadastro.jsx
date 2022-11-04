@@ -9,7 +9,7 @@ export function Cadastro() {
                 <img src={Icon}></img>
             </header>
             <div className="body">
-                <h1>Cadastro</h1>
+            <h1> Cadastro </h1>
                 <div className="form">
                     <form>
                         <input className="input" id="nome" placeholder="Nome" type="text"  required/>

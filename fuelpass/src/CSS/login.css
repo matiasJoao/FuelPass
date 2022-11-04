@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 .form form input {
     margin-top: 4%;
@@ -20,10 +21,14 @@
     height: 20px;
     background-color:rgba(0, 0, 0, 0.1) ;
     border: none;
+    border-radius: 7px;
 
 }
 .input:hover{
     padding: 3.7%;
+}
+.input::placeholder{
+    color:#0090A4 ;
 }
 .btn {
     margin-top: 10%;
