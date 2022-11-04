@@ -5,8 +5,6 @@ const PaypalCheckoutButton = (props) =>{
     const [paid, setPaid] = useState(false)
     const {product} = props
     const handleApprove = (orderId) =>{
-
-
         setPaid(true)
     }
     return(

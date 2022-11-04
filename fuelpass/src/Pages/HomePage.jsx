@@ -13,12 +13,14 @@ export function HomePage() {
     const ValorTotal = litros * preçoCombustivel
     const ValorTotal2 = real / preçoCombustivel
 
-
+  var price = Number(ValorTotal)
+    console.log(price, 'valor do preço')
 
     const product = {
-        price: 32,
+        price: price,
         description: "(:"
     }
+    console.log(product.price, 'valor')
   
    
 
