@@ -22,7 +22,7 @@ export  function Home() {
                         sair de casa </h1>
                     <div className="links">
                         <Link to="/login"><p  className="link link1">Bem Vindo De Volta! </p></Link>
-                        <Link><p  className="link link2">Novo Aqui? </p></Link>
+                        <Link to="/Cadastro"><p  className="link link2">Novo Aqui? </p></Link>
                     </div>
                 </div>
             </body>
